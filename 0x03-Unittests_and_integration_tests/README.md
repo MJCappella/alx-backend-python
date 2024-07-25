@@ -13,15 +13,7 @@ This project contains tasks for learning to write unittests and integration test
 + [x] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py)
     
 + [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) 
-+ [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
-  + Familiarize yourself with the `client.GithubOrgClient` class.
-  + Declare the `TestGithubOrgClient(unittest.TestCase)` class and implement the `test_org` method.
-  + This method should test that `GithubOrgClient.org` returns the correct value.
-  + Use `@patch` as a decorator to make sure `get_json` is called once with the expected argument but make sure it is not executed.
-  + Use `@parameterized.expand` as a decorator to parametrize the test with a couple of `org` examples to pass to `GithubOrgClient`, in this order:
-    + `google`.
-    + `abc`.
-  + No external HTTP calls should be made.
++ [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py)
 
 + [x] 5. **Mocking a property**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + `memoize` turns methods into properties. Read up on how to mock a property.
