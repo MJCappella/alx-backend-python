@@ -16,11 +16,7 @@ This project contains tasks for learning to write unittests and integration test
 
 + [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py)
 
-+ [x] 5. **Mocking a property**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
-  + `memoize` turns methods into properties. Read up on how to mock a property.
-  + Implement the `test_public_repos_url` method to unit-test `GithubOrgClient._public_repos_url`.
-  + Use `patch` as a context manager to patch `GithubOrgClient.org` and make it return a known payload.
-  + Test that the result of `_public_repos_url` is the expected one based on the mocked payload.
++ [x] 5. **Mocking a property**<br/>[test_client.py](test_client.py)
 
 + [x] 6. **More patching**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + Implement `TestGithubOrgClient.test_public_repos` to unit-test `GithubOrgClient.public_repos`.
