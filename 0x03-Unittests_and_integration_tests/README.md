@@ -4,8 +4,6 @@ This project contains tasks for learning to write unittests and integration test
 
 ## Required Modules
 
-+ parameterized.
-
 ## Tasks To Complete
 
 + [x] 0. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py)
