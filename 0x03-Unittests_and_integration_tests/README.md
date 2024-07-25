@@ -10,13 +10,7 @@ This project contains tasks for learning to write unittests and integration test
 
 + [x] 0. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py)
 
-+ [x] 1. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
-  + Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `assertRaises` context manager to test that a `KeyError` is raised for the following inputs (use `@parameterized.expand`):
-    ```
-    nested_map={}, path=("a",)
-    nested_map={"a": 1}, path=("a", "b")
-    ```
-  + Also make sure that the exception message is as expected.
++ [x] 1. **Parameterize a unit test**<br/>[test_utils.py](test_utils.py) 
 
 + [x] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
   + Familiarize yourself with the `utils.get_json` function.
