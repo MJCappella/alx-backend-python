@@ -12,22 +12,7 @@ This project contains tasks for learning to write unittests and integration test
 
 + [x] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py)
     
-+ [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) contains a python module that meets the following requirements:
-  + Read about memoization and familiarize yourself with the `utils.memoize` decorator.
-  + Implement the `TestMemoize(unittest.TestCase)` class with a `test_memoize` method.
-  + Inside `test_memoize`, define the following class:
-    ```py
-    class TestClass:
-
-        def a_method(self):
-            return 42
-
-        @memoize
-        def a_property(self):
-            return self.a_method()
-    ```
-  + Use `unittest.mock.patch` to mock `a_method`. Test that when calling `a_property` twice, the correct result is returned but `a_method` is only called once using `assert_called_once`.
-
++ [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) 
 + [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + Familiarize yourself with the `client.GithubOrgClient` class.
   + Declare the `TestGithubOrgClient(unittest.TestCase)` class and implement the `test_org` method.
