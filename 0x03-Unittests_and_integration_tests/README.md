@@ -20,14 +20,7 @@ This project contains tasks for learning to write unittests and integration test
 
 + [x] 6. **More patching**<br/>[test_client.py](test_client.py) 
 
-+ [x] 7. **Parameterize**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
-  + Implement `TestGithubOrgClient.test_has_license` to unit-test `GithubOrgClient.has_license`.
-  + Parametrize the test with the following inputs:
-    ```
-    repo={"license": {"key": "bsd-3-clause"}}, license_key="bsd-3-clause"
-    repo={"license": {"key": "bsl-1.0"}}, license_key="bsd-3-clause"
-    ```
-  + You should also parameterize the expected returned value.
++ [x] 7. **Parameterize**<br/>[test_client.py](test_client.py) 
 
 + [x] 8. **Integration test: fixtures**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
   + We want to test the `GithubOrgClient.public_repos` method in an integration test. That means that we will only mock code that sends external requests.
