@@ -12,7 +12,8 @@ This project contains tasks for learning to write unittests and integration test
 
 + [x] 2. **Mock HTTP calls**<br/>[test_utils.py](test_utils.py)
     
-+ [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py) 
++ [x] 3. **Parameterize and patch**<br/>[test_utils.py](test_utils.py)
+
 + [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](test_client.py)
 
 + [x] 5. **Mocking a property**<br/>[test_client.py](test_client.py) contains a python module that meets the following requirements:
