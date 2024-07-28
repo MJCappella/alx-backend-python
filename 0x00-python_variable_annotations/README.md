@@ -13,7 +13,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 + [x] 3. **Basic annotations - to string**<br/>[3-to_str.py](3-to_str.py) contains a type-annotated function `to_str` that takes a float `n` as argument and returns the string representation of the float.
 
 + [x] 4. **Define variables**<br/>[4-define_variables.py](4-define_variables.py)
-+ [ ] 
+
 + [x] 5. **Complex types - list of floats**<br/>[5-sum_list.py](5-sum_list.py) contains a type-annotated function `sum_list` which takes a list `input_list` of floats as argument and returns their sum as a float.
 
 + [x] 6. **Complex types - mixed list**<br/>[6-sum_mixed_list.py](6-sum_mixed_list.py) contains a type-annotated function `sum_mixed_list` which takes a list `mxd_lst` of integers and floats and returns their sum as a float.
