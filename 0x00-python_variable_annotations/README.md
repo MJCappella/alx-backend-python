@@ -52,18 +52,4 @@ This project contains tasks for learning to use variable/type annotations in Pyt
   ```
 
 + [x] 12. **Type Checking**<br/>[102-type_checking.py](102-type_checking.py) contains the code below and uses `mypy` to validate it and apply any necessary changes.
-  ```python
-  def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
-    zoomed_in: Tuple = [
-        item for item in lst
-        for i in range(factor)
-    ]
-    return zoomed_in
-
-
-  array = [12, 72, 91]
-
-  zoom_2x = zoom_array(array)
-
-  zoom_3x = zoom_array(array, 3.0)
-  ```
+ 
