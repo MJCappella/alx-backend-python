@@ -8,7 +8,7 @@ This project contains tasks for learning to use variable/type annotations in Pyt
       
 + [x] 1. **Basic annotations - concat**<br/>
 
-+ [x] 2. **Basic annotations - floor**<br/>[2-floor.py](2-floor.py) contains a type-annotated function `floor` which takes a float `n` as argument and returns the floor of the float.
++ [x] 2. **Basic annotations - floor**<br/>
 
 + [x] 3. **Basic annotations - to string**<br/>[3-to_str.py](3-to_str.py) contains a type-annotated function `to_str` that takes a float `n` as argument and returns the string representation of the float.
 
