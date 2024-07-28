@@ -31,13 +31,6 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 + [x] 10. **Duck typing - first element of a sequence**<br/>[100-safe_first_element.py](100-safe_first_element.py) contains an augmentation of the following code with the correct duck-typed annotations.
 
 + [x] 11. **More involved type annotations**<br/>[101-safely_get_value.py](101-safely_get_value.py) contains a script that includes the code below with type annotations added to it.
-  ```python
-  def safely_get_value(dct, key, default = None):
-    if key in dct:
-        return dct[key]
-    else:
-        return default
-  ```
 
 + [x] 12. **Type Checking**<br/>[102-type_checking.py](102-type_checking.py) contains the code below and uses `mypy` to validate it and apply any necessary changes.
  
