@@ -23,10 +23,6 @@ This project contains tasks for learning to use variable/type annotations in Pyt
 + [x] 8. **Complex types - functions**<br/>[8-make_multiplier.py](8-make_multiplier.py) contains a type-annotated function `make_multiplier` that takes a float `multiplier` as argument and returns a function that multiplies a float by `multiplier`.
 
 + [x] 9. **Let's duck type an iterable object**<br/>[9-element_length.py](9-element_length.py) contains an annotation of the function's (shown below) parameters and return values with the appropriate types.
-  ```python
-  def element_length(lst):
-    return [(i, len(i)) for i in lst]
-  ```
 
 + [x] 10. **Duck typing - first element of a sequence**<br/>[100-safe_first_element.py](100-safe_first_element.py) contains an augmentation of the following code with the correct duck-typed annotations.
 
